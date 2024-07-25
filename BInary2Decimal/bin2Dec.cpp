@@ -4,8 +4,6 @@
 
 bool validate(std::string s)
 {
-    char one = '1';
-    char zero = '0';
     if (s.length() <= 8)
     {
         for (int i = 0; i < s.length(); i++)
